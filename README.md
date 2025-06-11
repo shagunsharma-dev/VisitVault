@@ -23,7 +23,7 @@ your-project/
 Ensure you have the following installed:
 
 - [Node.js](https://nodejs.org)
-- (Optional) [MongoDB Compass](https://www.mongodb.com/products/compass) for DB GUI
+- [MongoDB Compass](https://www.mongodb.com/products/compass) for DB GUI
 - [Git](https://git-scm.com)
 - (Optional) [Postman](https://www.postman.com) for API testing
  
