@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #111827;
+  color: #fff;
+}
+
+/* Remove the global flex centering that conflicts with our component */
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+/* Make form elements more specific to avoid conflicts */
+form input:not([class*="bg-"]),
+form button:not([class*="bg-"]),
+form textarea:not([class*="bg-"]) {
+  outline: none;
+  border: none;
+}
+
+.sigCanvas {
+  background-color: #2d3748;
+  border-radius: 8px;
+  border: 2px solid #4b5563;
+}
+
+button {
+  cursor: pointer;
+}
+
+img.captured {
+  border: 2px solid #4ade80;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-top: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Add some base styles that won't conflict */
+#root {
+  min-height: 100vh;
+}
+
+/* Reset any conflicting styles */
+* {
+  box-sizing: border-box;
+}
